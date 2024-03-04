@@ -1,0 +1,21 @@
+.btn_line {
+    margin-left: 80px;
+    display: flex;
+    gap: 16px;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 100px;
+    border: 0;
+    padding: 10px 24px;
+    color: #081e34;
+    background-color: rgba(8, 30, 52, 0.05);
+}
+
+.btn:focus {
+    background-color: #8F98A4;
+    color: white;
+}
